@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-height: calc(100vh - 128px);
+    overflow: auto;
+}
+h2 {
+    text-align: center;
+}
+.question {
+    margin-bottom: 20px;
+}
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.option {
+    display: flex;
+    align-items: center;
+}
+.option input {
+    margin-right: 10px;
+}
+.submit-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    /* Width of the scrollbar */
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #929DAB;
+    border-radius: 5px;
+    /* Add a slight curve */
+  }
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #e7ecf2;
+    // border-radius: 4px;
+  }
