@@ -1,4 +1,4 @@
-export const questionsArr = [
+export const questionsArr1 = [
     {
      "Question No": 1,
      "Question": "Which of the following is a type of malware that disguises itself as legitimate software?",
@@ -1299,3 +1299,1000 @@ export const questionsArr = [
      "Option 4": "d) Rootkit\n\n",
      "Correct answer": "Answer: b) Botnet"
     }]
+
+
+export const questionsArr2 = [
+    {
+     "S.No": 1,
+     "Question": "Instructions which won’t appear in the object program are called as _____",
+     "Option 1": "Redundant instructions",
+     "Option 2": "Exceptions",
+     "Option 3": " Comments",
+     "Option 4": "Assembler Directives",
+     "Correct Answer": "Assembler Directives"
+    },
+    {
+     "S.No": 2,
+     "Question": "which of thw folllowing is a legitimate use of the DNA analysis technologiy",
+     "Option 1": "Dynamic analysis",
+     "Option 2": "Static analysis",
+     "Option 3": "Heuristic analysis",
+     "Option 4": " Behavioral analysis",
+     "Correct Answer": "Dynamic analysis"
+    },
+    {
+     "S.No": 3,
+     "Question": "What is the primary purpose of dynamic malware analysis?",
+     "Option 1": "To analyze malware behavior in a controlled environment",
+     "Option 2": "To analyze malware source code for vulnerabilities",
+     "Option 4": "To reverse engineer malware binaries to understand its functionality",
+     "Correct Answer": "To analyze malware behavior in a controlled environment"
+    },
+    {
+     "S.No": 4,
+     "Question": "The purpose of the ORIGIN directive is __________",
+     "Option 1": "Reserve",
+     "Option 2": "Store",
+     "Option 3": "Dataword",
+     "Option 4": "EQU",
+     "Correct Answer": "Dataword"
+    },
+    {
+     "S.No": 5,
+     "Question": "_____ directive is used to specify and assign the memory required for the block of code.",
+     "Option 1": "Allocate",
+     "Option 2": "assign",
+     "Option 3": "set",
+     "Option 4": "reserve",
+     "Correct Answer": "reserve"
+    },
+    {
+     "S.No": 6,
+     "Question": "Which of the following is not typically displayed in a hex editor?",
+     "Option 1": "Binary data",
+     "Option 2": "Text data",
+     "Option 3": "ASCII representation",
+     "Option 4": "Decimal representation",
+     "Correct Answer": "Decimal representation"
+    },
+    {
+     "S.No": 7,
+     "Question": "_____ directive specifies the end of execution of a program.",
+     "Option 1": "end",
+     "Option 2": "return",
+     "Option 3": "stop",
+     "Option 4": "terminate",
+     "Correct Answer": "return"
+    },
+    {
+     "S.No": 8,
+     "Question": "Which of the following techniques is commonly used in static analysis to determine the file type of a given file?",
+     "Option 1": "Dynamic execution",
+     "Option 2": "File extension analysis",
+     "Option 3": "Machine learning only",
+     "Option 4": "None of the above",
+     "Correct Answer": "File extension analysis"
+    },
+    {
+     "S.No": 9,
+     "Question": "Which operation is NOT commonly supported by hex editors?",
+     "Option 1": "Find and replace",
+     "Option 2": "Sorting",
+     "Option 3": "Insertion and deletion of bytes",
+     "Option 4": "Binary to decimal conversion",
+     "Correct Answer": "sorting"
+    },
+    {
+     "S.No": 11,
+     "Question": "What is a common method used in dynamic analysis to monitor system activities during malware execution?",
+     "Option 1": "Disassembling the malware code",
+     "Option 2": "Running the malware in a virtual machine",
+     "Option 3": "Analyzing network traffic patterns",
+     "Option 4": "Employing intrusion detection systems",
+     "Correct Answer": "Running the malware in a virtual machine"
+    },
+    {
+     "S.No": 12,
+     "Question": "which malware replicate itself without user intervention",
+     "Option 1": "virus",
+     "Option 2": "trojan horse",
+     "Option 3": "spyware",
+     "Option 4": "worm",
+     "Correct Answer": "worm",
+     "Column20": "abhinav"
+    },
+    {
+     "S.No": 13,
+     "Question": "which malware replicates itself with user intervention",
+     "Option 1": "virus",
+     "Option 2": "worm",
+     "Option 3": "trojan ",
+     "Option 4": "spyware",
+     "Correct Answer": "virus",
+     "Column20": "abhinav"
+    },
+    {
+     "S.No": 14,
+     "Question": "which malware gives the privileged access of victims' system",
+     "Option 1": "ransomware",
+     "Option 2": "rootkit",
+     "Option 3": "spyware",
+     "Option 4": "adware",
+     "Correct Answer": "rootkit",
+     "Column20": "abhinav"
+    },
+    {
+     "S.No": 16,
+     "Question": "What type of malware is designed to steal sensitive information, such as login credentials",
+     "Option 1": "Trojan",
+     "Option 2": "Worm",
+     "Option 3": "Ransomware",
+     "Option 4": "Adware",
+     "Correct Answer": "Trojan."
+    },
+    {
+     "S.No": 17,
+     "Question": "When debugging malware, which of the following techniques can help in identifying its behavior and characteristics?",
+     "Option 1": "Static analysis",
+     "Option 2": "Dynamic analysis",
+     "Option 3": "Reverse engineering",
+     "Option 4": "All of the above",
+     "Correct Answer": "All of the above"
+    },
+    {
+     "S.No": 18,
+     "Question": "What is Static Analysis?",
+     "Option 1": "the analysis of",
+     "Option 2": "the review of test",
+     "Option 3": "the analysis of",
+     "Option 4": "the use of black "
+    },
+    {
+     "S.No": 20,
+     "Question": "What is true regarding Static Analysis Tools?",
+     "Option 1": "It compares actual and expected result.",
+     "Option 2": "It gives quality information about code without executing it.",
+     "Option 3": "It can detect memory leaks",
+     "Option 4": "It tell about percentage of a code coverage.",
+     "Correct Answer": "Ans:B"
+    },
+    {
+     "S.No": 21,
+     "Question": "Which of the following types of malware is specifically designed to encrypt files on a victim's system and demand payment for their decryption?",
+     "Option 1": "Virus",
+     "Option 2": "Worm",
+     "Option 4": "Ransomware",
+     "Correct Answer": "Ransomware"
+    },
+    {
+     "S.No": 22,
+     "Question": "Which malware type modifies or deletes files, disrupts system operations, and spreads to other systems?",
+     "Option 1": "Virus",
+     "Option 2": "Worm",
+     "Option 3": "Trojan",
+     "Option 4": "Ransomware",
+     "Correct Answer": "vrius"
+    },
+    {
+     "S.No": 23,
+     "Question": "Which part of the PE header specifies the size of the image, including all headers, sections, and alignment padding?",
+     "Option 1": "Size of Headers",
+     "Option 2": "Size of Image",
+     "Option 3": "Image Base",
+     "Option 4": "Section Alignment",
+     "Correct Answer": "Size of Image"
+    },
+    {
+     "S.No": 24,
+     "Question": "Which field in the PE header indicates the entry point of the executable code?",
+     "Option 1": "Address of Entry Point",
+     "Option 2": "Base of Code",
+     "Option 3": "Address of Code",
+     "Option 4": "Entry Point",
+     "Correct Answer": "Entry Point"
+    },
+    {
+     "S.No": 25,
+     "Question": "Which component of the PE header determines the type of machine architecture for which the executable is intended?",
+     "Option 1": "File Alignment",
+     "Option 2": "Magic Number",
+     "Option 3": "Machine",
+     "Option 4": "Subsystem",
+     "Correct Answer": "Machine"
+    },
+    {
+     "S.No": 26,
+     "Question": "What does the \"PE\" in PE header stand for?",
+     "Option 1": "Portable Executable",
+     "Option 2": "Program Entry",
+     "Option 3": "Process Execution",
+     "Option 4": "Primary Extension",
+     "Correct Answer": "Portable Executable",
+     "Column17": " "
+    },
+    {
+     "S.No": 27,
+     "Question": "Which of the following features is NOT typically found in PEStudio?",
+     "Option 1": "Detection of common malware indicators",
+     "Option 2": "Dynamic analysis of network traffic",
+     "Option 3": " Identification of suspicious files",
+     "Option 4": "Detection of hidden functions and code anomalies",
+     "Correct Answer": "Dynamic analysis of network traffic"
+    },
+    {
+     "S.No": 29,
+     "Question": "Which tool is commonly used for disassembling Windows API functions?",
+     "Option 1": " IDA Pro",
+     "Option 2": " OllyDbg",
+     "Option 3": " Wireshark",
+     "Option 4": " Sublime Text",
+     "Correct Answer": " IDA Pro"
+    },
+    {
+     "S.No": 30,
+     "Question": "Which language is often used for disassembling and analyzing Windows API calls?",
+     "Option 1": "Python",
+     "Option 2": " C++",
+     "Option 3": " Assembly",
+     "Option 4": " Java",
+     "Correct Answer": " Assembly"
+    },
+    {
+     "S.No": 31,
+     "Question": "Which of the following is NOT a step in disassembling Windows API functions?",
+     "Option 1": " Identifying API calls",
+     "Option 2": " Analyzing network traffic",
+     "Option 3": " Reverse engineering binary files",
+     "Option 4": " Understanding function parameters",
+     "Correct Answer": " Analyzing network traffic"
+    },
+    {
+     "S.No": 32,
+     "Question": "What is the purpose of disassembling Windows API functions?",
+     "Option 1": " To develop new APIs",
+     "Option 2": " To create software patches",
+     "Option 3": " To understand how software interacts with the operating system",
+     "Option 4": " To encrypt sensitive data",
+     "Correct Answer": " To understand how software interacts with the operating system"
+    },
+    {
+     "S.No": 33,
+     "Question": "Which Windows API function is commonly used for file input\/output operations?",
+     "Option 1": " GetProcAddress",
+     "Option 2": " CreateFile",
+     "Option 3": " LoadLibrary",
+     "Option 4": " SendMessage",
+     "Correct Answer": "CreateFile"
+    },
+    {
+     "S.No": 35,
+     "Question": "Which step of dynamic analysis involves identifying and removing defects from the software?",
+     "Option 1": "Pepformance profiling",
+     "Option 2": "Debugging",
+     "Option 3": "Code coverage analysis",
+     "Option 4": "Mutation testing",
+     "Correct Answer": "Debugging"
+    },
+    {
+     "S.No": 36,
+     "Question": "Which step of dynamic analysis involves measuring various aspects of a program's performance, such as memory usage and execution time ?",
+     "Option 1": "Instrumentation",
+     "Option 2": "Performance profiling",
+     "Option 3": "Debugging ",
+     "Option 4": "Fuzz testing",
+     "Correct Answer": "Performance profiling"
+    },
+    {
+     "S.No": 37,
+     "Question": "During dynamic analysis, what is the purpose of monitoring network activity?",
+     "Option 1": "To identify the CPU usage of the malware",
+     "Option 2": "To track the location of the malware author",
+     "Option 3": "To observe communication with command and control servers"
+    },
+    {
+     "S.No": 38,
+     "Question": "What does \"PE\" stand for in the context of PE header in Windows executable files?",
+     "Option 1": "A) Portable Executable"
+    },
+    {
+     "S.No": 41,
+     "Question": "Which of the following is NOT a challenge in fingerprinting malware?",
+     "Option 1": " Evolving malware techniques",
+     "Option 2": "Large signature databases",
+     "Option 3": "Encryption of malware",
+     "Option 4": " Rapid mutation of malware",
+     "Correct Answer": "Large signature databases"
+    },
+    {
+     "S.No": 42,
+     "Question": "Which of the following is a common technique used in malware fingerprinting?",
+     "Option 1": "Signature-based detection",
+     "Option 2": " Random sampling",
+     "Option 3": "Hardware analysis",
+     "Option 4": "Social engineering",
+     "Correct Answer": " Signature-based detection"
+    },
+    {
+     "S.No": 43,
+     "Question": "_______________________ is based on sniffer traces from the remote system.",
+     "Option 1": "Active fingerprinting\n",
+     "Option 2": "Passive fingerprinting",
+     "Option 3": "OS fingerprinting",
+     "Option 4": "Network fingerprinting",
+     "Correct Answer": "Passive fingerprinting"
+    },
+    {
+     "S.No": 44,
+     "Question": "Which of the following do not comes under the important element of OS fingerprinting?",
+     "Option 1": "TTL",
+     "Option 2": "TOS",
+     "Option 3": "DF bits",
+     "Option 4": "Firewall",
+     "Correct Answer": "Firewall"
+    },
+    {
+     "S.No": 45,
+     "Question": "Which of the following is NOT a widely used hex editor software?",
+     "Option 1": "HxD",
+     "Option 2": ") Hex Fiend",
+     "Option 3": "Microsoft Word",
+     "Option 4": "XVI32",
+     "Correct Answer": "Microsoft word"
+    },
+    {
+     "S.No": 46,
+     "Question": "What is the purpose of file signature analysis in static analysis?",
+     "Option 1": "To execute code within the file",
+     "Option 2": "To identify unique byte sequences indicative of specific file types",
+     "Option 3": "To analyze file permissions",
+     "Option 4": "To determine file ownership",
+     "Correct Answer": "To identify unique byte sequences indicative of specific file types"
+    },
+    {
+     "S.No": 47,
+     "Question": "What is the primary purpose of extracting strings during static analysis in malware analysis?",
+     "Option 1": "Identifying the author of the malware",
+     "Option 2": "Uncovering the encryption algorithm used",
+     "Option 3": "Revealing hardcoded information and potential indicators of compromise",
+     "Option 4": "Analyzing runtime behavior of the malware",
+     "Correct Answer": "Revealing hardcoded information and potential indicators of compromise"
+    },
+    {
+     "S.No": 48,
+     "Question": "Which type of information can be revealed by analyzing strings in malware files?",
+     "Option 1": "Temperature and environmental data",
+     "Option 2": "Software version history",
+     "Option 3": "Communication channels, such as URLs or IP addresses",
+     "Option 4": "Physical location of the infected machine",
+     "Correct Answer": "Communication channels, such as URLs or IP addresses"
+    },
+    {
+     "S.No": 49,
+     "Question": "Why is it important to look for API function calls in extracted strings during static analysis?",
+     "Option 1": "To identify the programming language used in the malware",
+     "Option 2": "To understand the malware's capabilities and potential behaviors",
+     "Option 3": "To locate the malware's source code",
+     "Option 4": "To determine the file size of the malware",
+     "Correct Answer": "To understand the malware's capabilities and potential behaviors"
+    },
+    {
+     "S.No": 50,
+     "Question": "What role do encryption keys play in extracted strings, and how do they contribute to malware analysis?",
+     "Option 1": "Encryption keys help identify the victim's personal information",
+     "Option 2": "Encryption keys reveal the malware author's identity",
+     "Option 3": "Encryption keys aid in understanding obfuscation and decryption routines",
+     "Option 4": "Encryption keys are used to encrypt the entire filesystem",
+     "Correct Answer": "Encryption keys aid in understanding obfuscation and decryption routines"
+    },
+    {
+     "S.No": 53,
+     "Question": "What does IDA stand for in the context of disassembly tools?",
+     "Option 1": "Integrated Development Application",
+     "Option 2": "Interactive Disassembler",
+     "Option 3": "Instructional Debugging Analyzer",
+     "Option 4": "Intelligent Data Aggregator",
+     "Correct Answer": "OPTION B"
+    },
+    {
+     "S.No": 54,
+     "Question": "Which of the following file formats is commonly used with IDA for analyzing binary executables?",
+     "Option 1": ".txt",
+     "Option 2": ".pdf",
+     "Option 3": ".exe",
+     "Option 4": ".zip",
+     "Correct Answer": "OPTION C"
+    },
+    {
+     "S.No": 55,
+     "Question": "What is the primary purpose of IDA's graph view in disassembly analysis?",
+     "Option 1": "To display images and icons.",
+     "Option 2": "To show a visual representation of program control flow.",
+     "Option 3": "To organize functions alphabetically.",
+     "Option 4": "To list hexadecimal values of instructions.",
+     "Correct Answer": "OPTION B"
+    },
+    {
+     "S.No": 56,
+     "Question": "Which programming languages are commonly associated with IDA's disassembly analysis?",
+     "Option 1": "Java and Python",
+     "Option 2": "C and C++",
+     "Option 3": "HTML and CSS",
+     "Option 4": "Ruby and PHP",
+     "Correct Answer": "OPTION B"
+    },
+    {
+     "S.No": 57,
+     "Question": "What information can be obtained through malware fingerprinting?",
+     "Option 1": "Physical location of the malware creator",
+     "Option 2": "Type and variant of malware",
+     "Option 3": "Favorite color of the malware author",
+     "Option 4": "Weather conditions at the time of malware creation",
+     "Correct Answer": "Type and variant of malware"
+    },
+    {
+     "S.No": 58,
+     "Question": "Which technique involves creating a signature to detect specific malware patterns?",
+     "Option 1": "DNA analysis",
+     "Option 2": "Fingerprinting",
+     "Option 3": "Handwriting recognition",
+     "Option 4": "Facial recognition",
+     "Correct Answer": "Fingerprinting"
+    },
+    {
+     "S.No": 60,
+     "Question": "Which of the following techniques examines the internal structure of a file to determine its type?",
+     "Option 1": "Pattern matching",
+     "Option 2": "File extension analysis",
+     "Option 3": "Header analysis",
+     "Option 4": "File content analysis",
+     "Correct Answer": "Header analysis"
+    },
+    {
+     "S.No": 62,
+     "Question": "……………… techniques rely on the manual examination and automated analysis of the code or other project documentation without the execution of the code.",
+     "Option 1": "Static testing",
+     "Option 2": "Dynamic testing",
+     "Option 3": "Reviews",
+     "Option 4": "All",
+     "Correct Answer": "Static testing"
+    },
+    {
+     "S.No": 64,
+     "Question": "What is the distinguishing characteristic of a logic bomb?",
+     "Option 1": "To enhance the aesthetic appearance of malicious code",
+     "Option 2": "To detect and identify specific characteristics or attributes of malware",
+     "Option 3": "To create unique digital signatures for legitimate software",
+     "Option 4": "To improve the performance of antivirus software",
+     "Correct Answer": "To detect and identify specific characteristics or attributes of malware\n"
+    },
+    {
+     "S.No": 65,
+     "Question": "Which technique is commonly used for fingerprinting malware based on unique characteristics?\n\n",
+     "Option 1": "MAC Address analysis",
+     "Option 2": "Signature-based detection",
+     "Option 3": " IP Address tracking",
+     "Option 4": "Port Scanning",
+     "Correct Answer": "Signature-based detection"
+    },
+    {
+     "S.No": 66,
+     "Question": "Which of the following is a legitimate use of DNA analysis technology?",
+     "Option 1": "Detecting genetic diseases",
+     "Option 2": "Creating computer viruses",
+     "Option 3": "Hacking into computer systems",
+     "Option 4": "Improving internet speed",
+     "Correct Answer": "Detecting genetic diseases"
+    },
+    {
+     "S.No": 67,
+     "Question": "Which of the following is NOT a common method used by malware to infect a system?",
+     "Option 1": "Email attachments",
+     "Option 2": "Drive-by downloads",
+     "Option 3": "Physical contact with infected devices",
+     "Option 4": "Social engineering",
+     "Correct Answer": "Physical contact with infected devices"
+    },
+    {
+     "S.No": 68,
+     "Question": " What is the primary purpose of using sandboxes when debugging malware?",
+     "Option 1": " a) To analyze the malware's network communication",
+     "Option 2": " To provide a realistic environment for the malware to execute.",
+     "Option 3": "To isolate the malware and prevent it from harming the system..",
+     "Option 4": "  To modify the malware's code and observe the changes.",
+     "Correct Answer": " To isolate the malware and prevent it from harming the system."
+    },
+    {
+     "S.No": 69,
+     "Question": " What is a potential risk associated with debugging malware?",
+     "Option 1": ".a) It may damage the system hardware.",
+     "Option 2": "It may corrupt other files on the system.",
+     "Option 3": "The malware may escape the sandbox and infect the system.",
+     "Option 4": "It requires extensive programming knowledge.",
+     "Correct Answer": "The malware may escape the sandbox and infect the system"
+    },
+    {
+     "S.No": 70,
+     "Question": "When debugging malware, it is crucial to:",
+     "Option 1": "Run the malware directly on the main system.",
+     "Option 2": "prioritize speed and efficiency over thorough analysis.",
+     "Option 3": "Document all observations and findings meticulously.",
+     "Option 4": "Trust the information displayed by the malware itself.",
+     "Correct Answer": "Document all observations and findings meticulously.."
+    },
+    {
+     "S.No": 71,
+     "Question": "What is the purpose of reverse engineering in malware analysis?"
+    },
+    {
+     "S.No": 73,
+     "Question": "Which tool is commonly used for disassembling Windows API functions and analyzing their assembly code?"
+    },
+    {
+     "S.No": 74,
+     "Option 1": "IDA PRO",
+     "Option 2": "Visual Studio Code",
+     "Option 3": "Notepad++",
+     "Option 4": "Sublime Test",
+     "Correct Answer": "IDA Pro"
+    },
+    {
+     "S.No": 75,
+     "Question": "What is the significance of the IDA Pro tool in the context of disassembling Windows API?",
+     "Option 1": "Debugging applications",
+     "Option 2": "Enhancing software performance",
+     "Option 3": "Understanding malware behavior",
+     "Option 4": "Improving user interface design",
+     "Correct Answer": "Understanding Malware behaviour"
+    },
+    {
+     "S.No": 76,
+     "Question": "Which of the following registers is commonly used to pass parameters to Windows API functions in x86 assembly code?",
+     "Option 1": "EAX",
+     "Option 2": "EDX",
+     "Option 3": "ECX",
+     "Option 4": "All of the above",
+     "Correct Answer": "All of the above"
+    },
+    {
+     "S.No": 77,
+     "Question": "What is the primary purpose of disassembling Windows API calls ?",
+     "Option 1": "Graphics rendering",
+     "Option 2": "Debugging and analyzing memory dumps",
+     "Option 3": "Code compilation",
+     "Option 4": "GUI design for Windows applications",
+     "Correct Answer": "Debugging and analyzing memory dumps"
+    },
+    {
+     "S.No": 78,
+     "Question": "What does the \"PE\" in PE header stand for?"
+    },
+    {
+     "S.No": 79,
+     "Question": "3. P-hacking can be detrimental to research because it:",
+     "Option 1": "(a) Requires advanced hacking skills.",
+     "Option 2": "(b) May lead to inaccurate and misleading scientific conclusions. (Correct)",
+     "Option 3": "(c) Always involves illegal activities.",
+     "Option 4": "(d) Is a common practice in all scientific fields.",
+     "Correct Answer": "(b) May lead to inaccurate and misleading scientific conclusions. (Correct)"
+    },
+    {
+     "S.No": 81,
+     "Question": "which one is the right purpose of wireshark",
+     "Option 1": "video editing",
+     "Option 2": "packet sniffing",
+     "Option 3": "web devlopment",
+     "Option 4": "code compilation",
+     "Correct Answer": "Packet sniffing"
+    },
+    {
+     "Question": "At which layer wireshark works",
+     "Option 1": "Application layer",
+     "Option 2": "network layer",
+     "Option 3": "data link layer",
+     "Option 4": "Both B and C",
+     "Correct Answer": "Both B and C"
+    },
+    {
+     "Question": "which one is not the purpose of wireshark",
+     "Option 1": "packet sniffing",
+     "Option 2": "packet analysis",
+     "Option 3": "packet injection",
+     "Option 4": "protocol decryption",
+     "Correct Answer": "packet injection"
+    },
+    {
+     "S.No": 82,
+     "Question": "wireshark is ___________source software",
+     "Option 1": "open source",
+     "Option 2": "only available for MNCs",
+     "Option 3": "Both A and B",
+     "Option 4": "None of the above",
+     "Correct Answer": "packet sniffing"
+    },
+    {
+     "S.No": 83
+    },
+    {
+     "S.No": 84,
+     "Question": "Which of the following is a common use of a hex editor?",
+     "Option 1": "Editing source code",
+     "Option 2": "Modifying system settings",
+     "Option 3": "Analyzing and editing binary data",
+     "Option 4": "Creating graphical interfaces",
+     "Correct Answer": "editing source code"
+    },
+    {
+     "S.No": 85,
+     "Question": "P hacking is a practice of",
+     "Option 1": "intentional manipulating  data to get a desired statistical outcome",
+     "Option 2": "writing secure code to prevent hacking attempts",
+     "Option 3": "identifying and patching vulnerabilities in software systems",
+     "Option 4": "using social engineering techniques to gain authorized access to information",
+     "Correct Answer": "manipulating data or analysis method to obtain desired outcome"
+    },
+    {
+     "S.No": 86,
+     "Question": "2. Which of the following is NOT a common P-hacking technique?",
+     "Option 1": "(a) Collecting data until a statistically significant result is achieved. (Incorrect) - This is a common technique, but not considered ethical.",
+     "Option 2": "(b) Excluding data points that do not support the desired outcome.",
+     "Option 3": "(c) Failing to disclose relevant limitations of the research methodology.",
+     "Option 4": "(d) Replicating the study with different methods or datasets.",
+     "Correct Answer": "(a) Collecting data until a statistically significant result is achieved. (Incorrect) - This is a common technique, but not considered ethical."
+    },
+    {
+     "S.No": 88,
+     "Question": "The operations performed by data transfer instructions are on",
+     "Option 1": "bit data",
+     "Option 2": "byte data",
+     "Option 3": "16-bit data",
+     "Option 4": "all of the mentioned",
+     "Correct Answer": "all of the mentioned"
+    },
+    {
+     "S.No": 89,
+     "Question": "The data address of look-up table is found by adding the contents of",
+     "Option 1": "register instructions",
+     "Option 2": "register specific instructions",
+     "Option 3": "direct addressing",
+     "Option 4": "immediate mode",
+     "Correct Answer": "immediate mode"
+    },
+    {
+     "S.No": 90,
+     "Question": "\t\nThe data address of look-up table is found by adding the contents of",
+     "Option 1": "accumulator with that of program counter",
+     "Option 2": "accumulator with that of program counter or data pointer",
+     "Option 3": "data register with that of program counter or accumulator",
+     "Option 4": "data register with that of program counter or data pointer",
+     "Correct Answer": "accumulator with that of program counter or data pointer"
+    },
+    {
+     "S.No": 91,
+     "Question": "when we add two numbers the destination adderess must always be",
+     "Option 1": "some immediate data",
+     "Option 2": "any register",
+     "Option 3": "accumulator",
+     "Option 4": "memory",
+     "Correct Answer": "accumulator"
+    },
+    {
+     "S.No": 92,
+     "Question": "Which of the following is the FIRST step in dynamic analysis of malware?",
+     "Option 1": "Executing the malware in a controlled sandbox environment.",
+     "Option 2": "Reversing the malware's code using a disassembler.",
+     "Option 3": "Identifying suspicious strings or resources within the malware.",
+     "Option 4": " Patching the system vulnerabilities that the malware might exploit.",
+     "Correct Answer": " Executing the malware in a controlled sandbox environment."
+    },
+    {
+     "S.No": 93,
+     "Question": "What is the primary goal of analyzing malware?",
+     "Option 1": "To understand its technical capabilities and potential impact.",
+     "Option 2": "To develop a signature for antivirus software to detect similar threats.",
+     "Option 3": "To reverse engineer the malware and create a countermeasure.",
+     "Option 4": " All of the above.",
+     "Correct Answer": " All of the above."
+    },
+    {
+     "S.No": 94,
+     "Question": "What is a disadvantage of using a sandbox environment for DLL analysis?",
+     "Option 1": "Sandboxes might not accurately replicate the real-world environment and interactions.",
+     "Option 2": " DLLs might not function correctly due to limited resources in the sandbox.",
+     "Option 3": "Sandboxes cannot be used to analyze network activity associated with the DLL.",
+     "Option 4": "All of the above.",
+     "Correct Answer": "All of the above."
+    },
+    {
+     "S.No": 95,
+     "Question": "Which of the following statements is NOT true about using IDA for static code analysis?",
+     "Option 1": "IDA allows you to disassemble machine code into assembly language for manual inspection.",
+     "Option 2": "You can use IDA's built-in functions to identify potential malware characteristics like suspicious API calls.",
+     "Option 3": "Static analysis in IDA requires running the malware, making it a dynamic analysis technique.",
+     "Option 4": "IDA can be used to analyze different processor architectures by selecting the appropriate instruction set.",
+     "Correct Answer": "Static analysis in IDA requires running the malware, making it a dynamic analysis technique."
+    },
+    {
+     "S.No": 96,
+     "Question": "When performing static analysis in IDA, what information can be gleaned from function names and comments?",
+     "Option 1": "The intended functionality of the code segment.",
+     "Option 2": "The specific instructions used to implement the functionality.",
+     "Option 3": "Whether the code is malicious or benign based solely on naming conventions.",
+     "Option 4": "All of the above.",
+     "Correct Answer": "All of the above."
+    },
+    {
+     "S.No": 97,
+     "Question": "What is the advantage of using IDA's graphing capabilities during static analysis?",
+     "Option 1": "It allows for visualization of the overall program flow and potential control flow hijacking attempts.",
+     "Option 2": " It enables the identification of unused code sections, which might indicate obfuscation techniques.",
+     "Option 3": "It helps differentiate between legitimate and malicious code based on visual patterns",
+     "Option 4": "Both (a) and (b).",
+     "Correct Answer": "Both (a) and (b)."
+    },
+    {
+     "S.No": 98,
+     "Question": "How can IDA's built-in debugger be helpful during static analysis, even though it's not technically dynamic analysis?",
+     "Option 1": "It allows for limited execution of specific code sections to observe their behavior within a controlled environment.",
+     "Option 2": "It provides additional information about register values and memory usage, aiding in understanding code logic.",
+     "Option 3": " It enables setting breakpoints to analyze specific points in the code's execution (not possible in static analysis",
+     "Option 4": "Both (a) and (b).",
+     "Correct Answer": "Both (a) and (b)."
+    },
+    {
+     "S.No": 101,
+     "Question": "Which of the following is NOT a feature of PE Studio's user interface?"
+    },
+    {
+     "S.No": 102,
+     "Question": "Which programming language is PE Studio primarily written in?",
+     "Option 1": "Hexadecimal Viewer",
+     "Option 2": "Dependency graph",
+     "Option 3": "Debugger",
+     "Option 4": "Disassembler",
+     "Correct Answer": "Debugger"
+    },
+    {
+     "S.No": 103,
+     "Question": "Which section of PE files does PE Studio primarily analyze?",
+     "Option 1": "java",
+     "Option 2": "python",
+     "Option 3": "c++",
+     "Option 4": "Ruby",
+     "Correct Answer": "Python"
+    },
+    {
+     "S.No": 104,
+     "Question": "What is the output format of PE Studio analysis?",
+     "Option 1": "Header",
+     "Option 2": "data",
+     "Option 3": "footer ",
+     "Option 4": "Metadata",
+     "Correct Answer": "Header"
+    },
+    {
+     "S.No": 106,
+     "Question": "What file extension is used for ProcMon log files?"
+    },
+    {
+     "S.No": 107,
+     "Question": "ProcMon can capture events related to which of the following activities?",
+     "Option 1": ".log",
+     "Option 2": ".pml",
+     "Option 3": ".procmon",
+     "Option 4": ".pmlog",
+     "Correct Answer": ".pml"
+    },
+    {
+     "S.No": 108,
+     "Question": "What is the default refresh rate for ProcMon?",
+     "Option 1": "File creation ",
+     "Option 2": "reistry modifiction",
+     "Option 3": "Network packet trans mission ",
+     "Option 4": "All of the above",
+     "Correct Answer": "All of the above"
+    },
+    {
+     "S.No": 109,
+     "Question": "Which of the following can be used to filter events in ProcMon?",
+     "Option 1": "1 sec",
+     "Option 2": " 5 sec",
+     "Option 3": "10 sec",
+     "Option 4": "30 sec",
+     "Correct Answer": "10 sec"
+    },
+    {
+     "S.No": 110,
+     "Question": "What is the maximum number of filters that can be applied in ProcMon?",
+     "Option 1": "Process name ",
+     "Option 2": "PID",
+     "Option 3": "Operation",
+     "Option 4": "All of the above",
+     "Correct Answer": "All of the above"
+    },
+    {
+     "S.No": 112,
+     "Question": "What is a better alternative to p-hacking when analyzing data?",
+     "Option 2": "b) Predetermining the desired outcome and manipulating data to achieve that result.",
+     "Option 3": "c) Clearly pre-registering your research hypothesis, methodology, and analysis plan before collecting data.",
+     "Option 4": "Focusing solely on the statistical significance of results, regardless of the practical implications.",
+     "Correct Answer": "Clearly pre-registering your research hypothesis, methodology, and analysis plan before collecting data."
+    },
+    {
+     "S.No": 115,
+     "Question": "What is a limitation of using static analysis for file type determination?",
+     "Option 1": "It requires specialized software and expertise.",
+     "Option 3": "It is only applicable to binary files, not text files.",
+     "Option 4": "All of the above are limitations",
+     "Correct Answer": "It may not be able to identify all file types accurately"
+    },
+    {
+     "S.No": 118,
+     "Question": "In debugging, what does the term \"stack trace\" refer to?"
+    },
+    {
+     "S.No": 120,
+     "Question": "What does the term \"rubber duck debugging\" refer to?",
+     "Option 1": "A) Debugging with a rubber duck as a companion",
+     "Option 2": "B) Debugging underwater code",
+     "Option 3": "C) Debugging without using tools",
+     "Option 4": "D) Debugging with rubber gloves on"
+    },
+    {
+     "S.No": 127,
+     "Question": "What is the purpose of a watchpoint in debugging?",
+     "Option 1": "A) To watch the program's output",
+     "Option 2": "B) To monitor code execution speed",
+     "Option 3": "C) To break the program",
+     "Option 4": "D) To track changes in a variable"
+    },
+    {
+     "S.No": 129,
+     "Question": "How can researchers prevent P-hacking in their work?",
+     "Option 1": "Avoiding pre-registration of research plans.",
+     "Option 2": "Pre-registering research methods and hypotheses before data collection",
+     "Option 3": "Focusing solely on positive results and ignoring negative findings.",
+     "Option 4": "Not sharing their research data with other scientists.",
+     "Correct Answer": "Pre-registering research methods and hypotheses before data collection."
+    },
+    {
+     "S.No": 131,
+     "Question": "What is PEStudio primarily used for?",
+     "Option 1": "Network monitoring",
+     "Option 2": "Malware analysis",
+     "Option 3": "Web development",
+     "Option 4": "Data visualization",
+     "Correct Answer": "Malware analysis"
+    },
+    {
+     "S.No": 132,
+     "Question": "What does PE stand for in PEStudio?",
+     "Option 1": "Personal Edition",
+     "Option 2": "Private Environment",
+     "Option 3": "Portable Executable",
+     "Option 4": "Program Environment",
+     "Correct Answer": "Portable Executable"
+    },
+    {
+     "S.No": 133,
+     "Question": "Which of the following best describes PEStudio?",
+     "Option 1": "A video editing software",
+     "Option 2": "A static analysis tool for Windows executable files",
+     "Option 3": "A social media management tool",
+     "Option 4": "An antivirus program",
+     "Correct Answer": "A static analysis tool for Windows executable files"
+    },
+    {
+     "S.No": 136,
+     "Question": "which drive is used to capture packets when wireshark is running on a apple computer?",
+     "Option 1": "macpcap",
+     "Option 2": "airpcap",
+     "Option 3": "libpcap"
+    },
+    {
+     "S.No": 138,
+     "Question": "What is the term used for manipulating research methods to ensure a statistically significant result?",
+     "Option 1": "(a) Data mining",
+     "Option 2": "P-hacking",
+     "Option 3": "(c) Hypothesis testing",
+     "Option 4": "(d) Replication",
+     "Correct Answer": "P hacking"
+    },
+    {
+     "S.No": 140,
+     "Question": "Which of the following main activities are performed in the planning phase of a formal review?",
+     "Option 1": "i, ii and iii only",
+     "Option 2": "i, ii and iv only",
+     "Option 3": "ii, iii and iv only",
+     "Option 4": "All i, ii, iii and iv",
+     "Correct Answer": "i, ii and iv only"
+    },
+    {
+     "S.No": 142,
+     "Question": "a key logger is an example of",
+     "Option 1": "spyware",
+     "Option 2": "trojan",
+     "Option 3": "worm",
+     "Option 4": "logic boom",
+     "Correct Answer": "spyware"
+    },
+    {
+     "S.No": 143,
+     "Question": "Which of the following describes the main phases of a formal review?",
+     "Option 1": "A) Initiation, backtracking, individual preparation, review meeting, rework, follow-up",
+     "Option 2": "B) Planning, individual preparation, review meeting, rework, closure, follow-up",
+     "Option 3": "C) Planning, kick-off, individual preparation, review meeting, rework, follow-up",
+     "Option 4": "D) Individual preparation, review meeting, rework, closure, follow-up, root cause analysis",
+     "Correct Answer": "Planning, kick-off, individual preparation, review meeting, rework, follow-up"
+    },
+    {
+     "S.No": 146,
+     "Question": "Which of the following is a common debugging technique?",
+     "Option 1": "A) Adding more features",
+     "Option 2": "B) Removing all code",
+     "Option 3": "C) Printing variables and values",
+     "Option 4": "D) Ignoring errors"
+    },
+    {
+     "S.No": 147,
+     "Question": "What does \"PE\" stand for in the context of PE header in Windows executable files?"
+    },
+    {
+     "S.No": 150,
+     "Question": "type in the name of the pcap driver used when running wireshark on a windows computer ?",
+     "Option 1": "winpcap"
+    },
+    {
+     "S.No": 152,
+     "Question": "What is Wireshark primarily used for in the context of malware analysis?",
+     "Option 1": "a) Executing malware samples",
+     "Option 2": "b) Analyzing network traffic",
+     "Option 3": "c) Debugging malware code"
+    },
+    {
+     "S.No": 153,
+     "Question": "Which feature of Wireshark is helpful in identifying malicious network traffic?",
+     "Option 1": "a) Packet capture",
+     "Option 2": "b) Protocol dissection",
+     "Option 3": "c) Traffic filtering"
+    },
+    {
+     "S.No": 154,
+     "Question": "Which of the following protocols might be used by malware and can be analyzed using Wireshark?",
+     "Option 1": "a) HTTP",
+     "Option 2": "b) FTP"
+    },
+    {
+     "S.No": 155,
+     "Question": "Wireshark can capture traffic on which types of networks?",
+     "Option 1": "a) Wired only",
+     "Option 2": "b) Wireless only"
+    },
+    {
+     "S.No": 157,
+     "Question": "What is the distinguishing characteristic of a logic bomb?",
+     "Option 1": "It spreads rapidly across networks.",
+     "Option 2": "It encrypts files and demands payment.",
+     "Option 3": "t triggers a malicious action at a specific time or event.",
+     "Option 4": "It displays unwanted advertisements.",
+     "Correct Answer": "It triggers a malicious action at a specific time or event."
+    },
+    {
+     "S.No": 160,
+     "Question": "Which of the following activities does not include within follow-up phase of formal review?",
+     "Option 1": "Checking that defects have been addressed",
+     "Option 2": "Gathering metrics",
+     "Option 3": "Fixing defects found",
+     "Option 4": "Checking on exit criteria",
+     "Correct Answer": "Fixing defects found"
+    },
+    {
+     "S.No": 162,
+     "Question": "What is the role of peer review in preventing p-hacking?",
+     "Option 1": "(a) Peer reviewers are not trained to identify p-hacking techniques",
+     "Option 2": "(b) Careful peer review can help identify and flag suspicious practices (Answer)",
+     "Option 3": "(c) Peer review ensures the quality of writing, not the methods used",
+     "Option 4": "(d) Peer review is not effective in preventing misconduct",
+     "Correct Answer": "(b) Careful peer review can help identify and flag suspicious practices (Answer)"
+    },
+   
+   ]
